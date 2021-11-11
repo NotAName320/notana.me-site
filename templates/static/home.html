@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+
+{% block title%}Home{% endblock %}
+{% block header %}<h1></h1>{% endblock %}
+
+{% block nav_home %}active{% endblock %}
+
+{% block content %}
+
+<p>
+    <img src="{{ url_for('static', filename='notapicture.jpg') }}" title="This is what I look like to you internet fools."><br>
+    Hey, I'm NotAName. This is where I'll post personal stuff, stuff that I enjoy, stuff that I'm interested in, stuff that I do, etc.<br>
+    Check out the links above for some cool things!
+</p>
+{% endblock %}
