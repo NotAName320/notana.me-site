@@ -39,8 +39,9 @@ body {
   color: black;
 }
 
-.content p, ul {
-    margin: 0px 600px;
+.content{
+    margin: auto;
+    width: 50%;
 }
 
 .content a {
