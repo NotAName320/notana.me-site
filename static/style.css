@@ -10,6 +10,7 @@ body {
 
 .logo img {
     max-width: 40%;
+    min-width: 40%;
     height: auto;
 }
 
@@ -76,6 +77,12 @@ body {
 
 .footer a:visited {
     color: dimgrey;
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        width: 90%;
+    }
 }
 
 @media screen and (min-width: 481px) {
