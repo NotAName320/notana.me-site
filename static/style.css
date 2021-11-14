@@ -39,9 +39,8 @@ body {
   color: black;
 }
 
-.content{
+.content {
     margin: auto;
-    width: 40%;
 }
 
 .content a {
@@ -77,4 +76,10 @@ body {
 
 .footer a:visited {
     color: dimgrey;
+}
+
+@media screen and (min-width: 481px) {
+    .content {
+        width: 40%;
+    }
 }
