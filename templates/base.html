@@ -13,13 +13,28 @@
     <div class="logo">
         <a href="/"><img src="{{ url_for('static', filename='logo.png') }}" alt="notaname's website"></a>
     </div>
-    <div class="topbar">
+    <div class="topbar" id="topBar">
         <a class="{% block nav_home %}{% endblock %}" href="/">Home</a>
         <a class="{% block nav_about %}{% endblock %}" href="/about">About</a>
         <a class="{% block nav_music %}{% endblock %}" href="/music">Music</a>
         <a class="{% block nav_contact %}{% endblock %}" href="/contact">Contact</a>
         <a class="{% block nav_coolstuff %}{% endblock %}" href="/coolstuff">Cool Stuff</a>
+        <a href="javascript:void(0);" class="hamburger" onclick="topBarShow()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
     </div>
+    <script>
+        function topBarShow() {
+          var x = document.getElementById("topBar");
+          if (x.className === "topbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "topbar";
+          }
+        }
+    </script>
 
 
     <section class="content">
