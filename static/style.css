@@ -56,6 +56,10 @@ body {
     margin: auto;
 }
 
+.content br {
+    line-height: 150%;
+}
+
 .content a {
     color: black;
 }
