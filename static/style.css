@@ -56,7 +56,7 @@ body {
     margin: auto;
 }
 
-.content br {
+.content br.lb {
     display: block;
     content: "";
     line-height: 150%;
