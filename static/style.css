@@ -57,6 +57,8 @@ body {
 }
 
 .content br {
+    display: block;
+    content: "";
     line-height: 150%;
 }
 
